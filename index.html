@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Delivery App</title>
+    <script src="app.js"></script>
+   
+</head>
+
+<body>
+    <div class="container">
+        <i><h1>Pizza Delivery App</h1></i>
+        <form id="pizzaForm">
+            <label for="pizzaSize">Choose pizza size:</label>
+            <select id="pizzaSize" name="pizzaSize" >
+                <option value="small" selected="selected">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label for="toppings">Toppings:</label>
+            <input type="text" required="required" id="toppings" name="toppings" placeholder="Enter Your Favorite Toppings ..." >
+
+            <label for="deliveryAddress"> Address:</label>
+            <input type="text" id="Address" name="deliveryAddress" placeholder="Enter your address" required>
+
+
+            <label for="Mobile Number"> Mobile Number:</label>
+            <input type="Number" id="Number" name="Number" placeholder="Enter your Number" required>
+           
+            <label for="Payment"> Payment:</label>
+            <input type="text" id="Payment" name="Payment" placeholder="Pay With Cash Or Card" required>
+
+
+
+            <button type="button" onclick="PlaceOrder()" >Place Order</button>
+            
+            <button class="reset-button" type="button" onclick="resetingData()">Start New Order</button>
+        
+        <a href="aboutus.html" class="back">Back</a>
+        </form>
+
+        <div id="orderData"></div>
+    </div>
+
+   
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

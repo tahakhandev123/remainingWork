@@ -1,0 +1,16 @@
+h1{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+.para{
+    font-size: 30px;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
